@@ -37,7 +37,7 @@ This project is a hybrid movie recommender system that integrates collaborative 
 |
 |--> GUI Interface
     |--> PyQt5 GUI for movie recommendations
-
+```
 ⸻
 
 Features
