@@ -40,7 +40,7 @@ This project is a hybrid movie recommender system that integrates collaborative 
 ```
 ⸻
 
-Features
+## Features
     • Hybrid recommender (Content-Based + Collaborative Filtering)
     • PyQt5 GUI for interactive user experience
     • Cosine similarity over genre embeddings
@@ -50,21 +50,21 @@ Features
     • Well-documented codebase with design proposal
 
 ⸻
-Usage
+## Usage
 
 To run the GUI
 
 python main.py
 
-Make sure the dataset is located in data/ml-latest-small/ with the following files:
+Make sure the dataset is located in `data/ml-latest-small/` with the following files:
     • movies.csv
     • ratings.csv
     • enres_encoded.csv
 
 ⸻
 
-File Structure
-
+## File Structure
+```
 .
 ├── data/
 │   └── ml-latest-small/
@@ -88,11 +88,11 @@ File Structure
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
+```
 ⸻
 
-Design Proposal
-
+## Design Proposal
+```
 +-------------------+
 | 1. Data Loading   |
 |-------------------|
@@ -159,3 +159,4 @@ Design Proposal
 | - Recall@K                |
 | - NDCG / MAP              |
 +---------------------------+
+```
