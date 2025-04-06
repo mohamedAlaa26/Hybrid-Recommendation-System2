@@ -50,25 +50,6 @@ Features
     • Well-documented codebase with design proposal
 
 ⸻
-
-Installation & Setup
-
-1. Clone the Repository
-
-`git clone https://github.com/your_username/hybrid-movie-recommender`
-cd hybrid-movie-recommender
-
-2. Create Virtual Environment
-
-python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
-
-3. Install Dependencies
-
-`pip install -r requirements.txt`
-
-⸻
-
 Usage
 
 To run the GUI
