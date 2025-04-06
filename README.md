@@ -41,13 +41,13 @@ This project is a hybrid movie recommender system that integrates collaborative 
 ⸻
 
 ## Features
-    • Hybrid recommender (Content-Based + Collaborative Filtering)
-    • PyQt5 GUI for interactive user experience
-    • Cosine similarity over genre embeddings
-    • SVD Collaborative Filtering using surprise library
-    • Modular architecture (separate logic and UI)
-    • Evaluation metrics included (RMSE, Precision@K, Recall@K)
-    • Well-documented codebase with design proposal
+- Hybrid recommender (Content-Based + Collaborative Filtering)
+- PyQt5 GUI for interactive user experience
+- Cosine similarity over genre embeddings
+- SVD Collaborative Filtering using surprise library
+- Modular architecture (separate logic and UI)
+- Evaluation metrics included (RMSE, Precision@K, Recall@K)
+- Well-documented codebase with design proposal
 
 ⸻
 ## Usage
@@ -57,9 +57,9 @@ To run the GUI
 python main.py
 
 Make sure the dataset is located in `data/ml-latest-small/` with the following files:
-    • movies.csv
-    • ratings.csv
-    • enres_encoded.csv
+- movies.csv
+- ratings.csv
+- enres_encoded.csv
 
 ⸻
 
