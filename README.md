@@ -2,13 +2,13 @@
 
 A client-server movie recommendation application built with PyQt5 for the GUI (client) and a custom hybrid recommender model combining collaborative filtering and content-based filtering on the backend.
 
----
+----
 
 ## **Project Description**
 
 This project is a hybrid movie recommender system that integrates collaborative filtering (SVD from Surprise) and content-based filtering (genre embeddings + cosine similarity). Users interact with a graphical interface built using PyQt5, select a user ID, and receive movie recommendations. The system is designed with modularity in mind and emphasizes clean code structure, reproducibility, and evaluation.
 
----
+----
 
 ## **Pipeline Overview**
 
