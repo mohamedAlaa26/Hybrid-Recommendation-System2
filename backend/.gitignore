@@ -10,7 +10,7 @@ env/
 
 # Docker
 docker-compose.override.yml
-Dockerfile
+
 
 # IDE files (e.g. PyCharm, VS Code)
 .vscode/
