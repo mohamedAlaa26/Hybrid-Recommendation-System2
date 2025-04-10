@@ -1,10 +1,6 @@
 # **Hybrid Movie Recommendation System**
 
-<video autoplay>
-  <source src="video/44b254cf-bb54-4d11-a5fa-c0fc5c7e9364.MP4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+<iframe width="560" height="315" src="video/44b254cf-bb54-4d11-a5fa-c0fc5c7e9364.MP4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 A client-server movie recommendation application built with PyQt5 for the GUI (client) and a custom hybrid recommender model combining collaborative filtering and content-based filtering on the backend.
 
 ----
