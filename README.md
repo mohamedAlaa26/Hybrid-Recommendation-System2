@@ -4,13 +4,13 @@
 
 A client-server movie recommendation application built with PyQt5 for the GUI (client) and a custom hybrid recommender model combining collaborative filtering and content-based filtering on the backend.
 
----
+----
 
 ## **Project Description**
 
 This project is a hybrid movie recommender system that integrates collaborative filtering (SVD from Surprise) and content-based filtering (genre embeddings + cosine similarity). Users interact with a graphical interface built using PyQt5, select a user ID, and receive movie recommendations. The system is designed with modularity in mind and emphasizes clean code structure, reproducibility, and evaluation.
 
----
+----
 
 ## **Pipeline Overview**
 
@@ -39,34 +39,34 @@ This project is a hybrid movie recommender system that integrates collaborative 
 |
 |--> GUI Interface
     |--> PyQt5 GUI for movie recommendations
-
+```
 ⸻
 
-Features
-    • Hybrid recommender (Content-Based + Collaborative Filtering)
-    • PyQt5 GUI for interactive user experience
-    • Cosine similarity over genre embeddings
-    • SVD Collaborative Filtering using surprise library
-    • Modular architecture (separate logic and UI)
-    • Evaluation metrics included (RMSE, Precision@K, Recall@K)
-    • Well-documented codebase with design proposal
+## Features
+- Hybrid recommender (Content-Based + Collaborative Filtering)
+- PyQt5 GUI for interactive user experience
+- Cosine similarity over genre embeddings
+- SVD Collaborative Filtering using surprise library
+- Modular architecture (separate logic and UI)
+- Evaluation metrics included (RMSE, Precision@K, Recall@K)
+- Well-documented codebase with design proposal
 
 ⸻
-Usage
+## Usage
 
 To run the GUI
 
 python main.py
 
-Make sure the dataset is located in data/ml-latest-small/ with the following files:
-    • movies.csv
-    • ratings.csv
-    • enres_encoded.csv
+Make sure the dataset is located in `data/ml-latest-small/` with the following files:
+- movies.csv
+- ratings.csv
+- enres_encoded.csv
 
 ⸻
 
-File Structure
-
+## File Structure
+```
 .
 ├── data/
 │   └── ml-latest-small/
@@ -90,11 +90,11 @@ File Structure
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
+```
 ⸻
 
-Design Proposal
-
+## Design Proposal
+```
 +-------------------+
 | 1. Data Loading   |
 |-------------------|
@@ -161,3 +161,4 @@ Design Proposal
 | - Recall@K                |
 | - NDCG / MAP              |
 +---------------------------+
+```
