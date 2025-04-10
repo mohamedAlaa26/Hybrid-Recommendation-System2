@@ -1,5 +1,7 @@
 # **Hybrid Movie Recommendation System**
 
+![Demo Video](video/44b254cf-bb54-4d11-a5fa-c0fc5c7e9364.mp4)
+
 A client-server movie recommendation application built with PyQt5 for the GUI (client) and a custom hybrid recommender model combining collaborative filtering and content-based filtering on the backend.
 
 ---
