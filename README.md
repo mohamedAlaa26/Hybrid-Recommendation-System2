@@ -1,7 +1,7 @@
 # **Hybrid Movie Recommendation System**
 
 <video controls autoplay>
-  <source src="https://github.com/HeshamEL-Shreif/Hybrid-Recommendation-System/blob/main/video/44b254cf-bb54-4d11-a5fa-c0fc5c7e9364.MP4 type="video/mp4">
+  <source src="https://github.com/HeshamEL-Shreif/Hybrid-Recommendation-System/blob/main/video/video_G.gif" type="video/gif">
   Your browser does not support the video tag.
 </video>
 
