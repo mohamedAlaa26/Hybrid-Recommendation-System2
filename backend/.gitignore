@@ -1,0 +1,21 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Docker
+docker-compose.override.yml
+Dockerfile
+
+# IDE files (e.g. PyCharm, VS Code)
+.vscode/
+.idea/
+
+# Sensitive information
+.env
+*.env
