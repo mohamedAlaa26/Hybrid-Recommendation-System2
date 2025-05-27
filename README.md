@@ -3,7 +3,7 @@
 
 
 A client-server movie recommendation application built with PyQt5 for the GUI (client) and a custom hybrid recommender model combining collaborative filtering and content-based filtering on the backend.
-
+the backend is fully containerized using Docker to ensure portability and ease of deployment.
 ----
 
 ## **Project Description**
@@ -44,12 +44,8 @@ This project is a hybrid movie recommender system that integrates collaborative 
 
 ## Features
 - Hybrid recommender (Content-Based + Collaborative Filtering)
-- PyQt5 GUI for interactive user experience
-- Cosine similarity over genre embeddings
 - SVD Collaborative Filtering using surprise library
 - Modular architecture (separate logic and UI)
-- Evaluation metrics included (RMSE, Precision@K, Recall@K)
-- Well-documented codebase with design proposal
 
 ⸻
 ## Usage
