@@ -61,6 +61,7 @@ Make sure the dataset is located in `data/ml-latest-small/` with the following f
 
 ⸻
 
+### how to get the image ?
 Docker Image
 The Docker image is publicly available on Docker Hub:
 
@@ -68,7 +69,7 @@ docker pull mohamedalaa72/movie-backend2
 
 ⸻
 
-Deployment
+### Deployment
 The containerized application has been successfully deployed on Claw.cloud. You can now access the movie recommendation system remotely without any setup.
 
 ✅ Dockerized for consistent environments across platforms
