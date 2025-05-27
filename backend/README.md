@@ -1,5 +1,5 @@
 # **Hybrid Movie Recommendation System**
-![Demo Video](https://github.com/mohamedAlaa26/Hybrid-Recommendation-System2/blob/recomendation_sys_containerized/backend/new_gif.gif)
+![Demo Video](https://raw.githubusercontent.com/mohamedAlaa26/Hybrid-Recommendation-System2/recomendation_sys_containerized/backend/new_gif.gif)
 
 https://github.com/mohamedAlaa26/Hybrid-Recommendation-System2/blob/recomendation_sys_containerized/backend/new_gif.gif
 A client-server movie recommendation application built with PyQt5 for the GUI (client) and a custom hybrid recommender model combining collaborative filtering and content-based filtering on the backend.
