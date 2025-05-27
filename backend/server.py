@@ -4,8 +4,18 @@ from pydantic import BaseModel
 import uvicorn
 import pandas as pd
 from typing import List, Dict, Optional
+from fastapi.middleware.cors import CORSMiddleware 
 
 app = FastAPI(title="Movie Recommendation API")
+
+# 👇 Add this CORS middleware block right after creating `app`
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Use specific origins in production
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Data models
 class MovieList(BaseModel):
