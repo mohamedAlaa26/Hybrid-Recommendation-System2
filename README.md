@@ -65,9 +65,9 @@ Make sure the dataset is located in `data/ml-latest-small/` with the following f
 Docker Image
 The Docker image is publicly available on Docker Hub:
 
-''' 
+#### comand:
 docker pull mohamedalaa72/movie-backend2
-'''
+
 
 ⸻
 
