@@ -60,12 +60,14 @@ Make sure the dataset is located in `data/ml-latest-small/` with the following f
 - enres_encoded.csv
 
 ⸻
+
 Docker Image
 The Docker image is publicly available on Docker Hub:
 
 docker pull mohamedalaa72/movie-backend2
 
 ⸻
+
 Deployment
 The containerized application has been successfully deployed on Claw.cloud. You can now access the movie recommendation system remotely without any setup.
 
