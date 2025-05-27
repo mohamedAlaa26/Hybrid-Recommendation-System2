@@ -60,101 +60,18 @@ Make sure the dataset is located in `data/ml-latest-small/` with the following f
 - enres_encoded.csv
 
 ⸻
+Docker Image
+The Docker image is publicly available on Docker Hub:
 
-## File Structure
-```
-.
-├── data/
-│   └── ml-latest-small/
-│       ├── movies.csv
-│       ├── ratings.csv
-│       └── Genres_encoded.csv
-│
-├── gui/
-│   └── main.py                 # PyQt5 GUI
-│
-├── recommender/
-│   ├── recommender.py          # Recommender logic
-│   └── evaluation.py           # Evaluation metrics
-│
-├── notebook/
-│   └── scratch_exploration.ipynb  # EDA and experimentation
-│
-├── proposal/
-│   └── design_proposal.pdf     # Pipeline + Design Proposal
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
+docker pull mohamedalaa72/movie-backend2
+
 ⸻
+Deployment
+The containerized application has been successfully deployed on Claw.cloud. You can now access the movie recommendation system remotely without any setup.
 
-## Design Proposal
-```
-+-------------------+
-| 1. Data Loading   |
-|-------------------|
-| - movies.csv      |
-| - ratings.csv     |
-| - genres_encoded  |
-+-------------------+
-         |
-         v
-+----------------------+
-| 2. Preprocessing     |
-|----------------------|
-| - Encode genres      |
-| - Build index maps   |
-| - Filter users/movies|
-+----------------------+
-         |
-         v
-+----------------------------+
-| 3. Modeling                |
-|----------------------------|
-| a) Content-Based Filtering |
-|    - Cosine Similarity     |
-|    - Genre vectors         |
-|                            |
-| b) Collaborative Filtering |
-|    - SVD (Surprise)        |
-|    - User-Movie Matrix     |
-+----------------------------+
-         |
-         v
-+--------------------------------+
-| 4. Hybrid Recommendation       |
-|--------------------------------|
-| - Combine scores               |
-|   (e.g., 70% content + 30% CF) |
-| - Exclude seen movies          |
-| - Sort and rank                |
-+--------------------------------+
-         |
-         v
-+--------------------------+
-| 5. Inference Engine      |
-|--------------------------|
-| - Accept user input      |
-| - Return top-N movies    |
-+--------------------------+
-         |
-         v
-+----------------------------+
-| 6. GUI (PyQt5 Client)      |
-|----------------------------|
-| - User selects ID          |
-| - Shows rated movies       |
-| - Displays recommendations |
-+----------------------------+
-         |
-         v
-+---------------------------+
-| 7. Evaluation Metrics     |
-|---------------------------|
-| - RMSE                    |
-| - Precision@K             |
-| - Recall@K                |
-| - NDCG / MAP              |
-+---------------------------+
-```
+✅ Dockerized for consistent environments across platforms
+
+🌐 Deployed on Claw.cloud for public access and demonstration
+
+📦 Includes all necessary dependencies specified in requirements.txt
+
